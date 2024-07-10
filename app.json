@@ -7,24 +7,24 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
+  "logo": "https://https://telegra.ph/file/8fc4639b494de887c61b0.jpg",
   "repository": "https://github.com/djalega8000/Zokou-2.0",
   "succes_url": "/",
   "stack": "container",
   "env": {
     "PREFIX": {
       "description": "choose your prefix of bot",
-      "value": "#",
+      "value": ".",
       "required": true
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "PM_PERMIT": {
@@ -35,7 +35,7 @@
     "BOT_NAME": {
       "description": "put A name for your bot",
       "value": "Zokou-MD",
-      "required": false
+      "required": true
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
@@ -45,7 +45,7 @@
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "HEROKU_APY_KEY": {
       "description": "insert your heroku api-key (this is optionnal)",
@@ -57,18 +57,18 @@
     },
     "SESSION_ID": {
       "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
+      "value": "Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK0I3NGkrSnFiSWl5NmtlS2RRRnp2REEydEo3MVgrY0dmUWtZcVdyVnVHOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiemI1ZWE0dTNrUXlLb3g2R0IybUw0QTNqYXpyYnh3bExBb3VFZ3lQeS9tbz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ5TEhJaWd3MC9YRFlGa01GTndrOGMvaHBOdktudzRYaXNxRmk5QWwyNWtNPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJkQWFwcWVRREo4MUd5UCtiYUpINFFQRThNNGx1Y3dXQnVLNFdsYWFWUmswPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZJZ2FnSnpGWDBnNHp2cWlxbjUwYTJjQ2l6ejZjQ1NLS0VCQlBsU0trRUk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InoyNldwWm5sejdEOVpGR3VyOVcwVWtSTnhqNUNHUzUreWVvQXM1QW53SHc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV0xRbG83QWUxRlVzOHhBSGExNG1QYmpLRnNQTnkzQkxFZFNRMmsvYUVtTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ092MXJyejNFdnNyeDBnZjBFcTFFUVNkZFhPRXJjS0Z1V1hwWU9YWGF3az0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZ4VUs5OHBYSlRQRXdBWEZCV2ZiUTI4eno5bGttZVpkaWFIcStBZWIzOHZTVGIvNnFsVmhkOFk0aDBKT3F1SnQ4YXF1OERWd3lnVExaTUpuZWtDWmhRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTgxLCJhZHZTZWNyZXRLZXkiOiJIbk5hQXg0cGNvRVJOTHhNdjZ3ckt6ek16a3BPcnZjYlhFTzJCYU1VOXFzPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjI1MjY4NDc0ODc2M0BzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI1NDBCN0IyN0E1NkY0NjNBQTE5OUMxOEU1MjMxRTNDQiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzIwNjA5NjI1fSx7ImtleSI6eyJyZW1vdGVKaWQiOiIyNTI2ODQ3NDg3NjNAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiQUJDN0ZDNTI3MUY2ODY0MzU2NzgyREU4ODg0QTJBQzYifSwibWVzc2FnZVRpbWVzdGFtcCI6MTcyMDYwOTYyNX1dLCJuZXh0UHJlS2V5SWQiOjYxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6NjEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiNTJQbWZFazJSeGlpSmVObVNkVjJsZyIsInBob25lSWQiOiJiMjIwYzI1ZC0xMmZjLTQ1MTQtOTNlYy1lMjJlYTEwOTFkYjUiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT1hpU240eGFBWGovUWVVR3RUNEU2NWphb3JvPSJ9LCJyZWdpc3RlcmVkIjpmYWxzZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJJZ3ZVRnNxZzNwQkg0MDhlYnA0eEduWDhQMUk9In0sInJlZ2lzdHJhdGlvbiI6e30sImFjY291bnQiOnsiZGV0YWlscyI6IkNMdmJzckVDRU5QV3ViUUdHQUlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJnWFRacDdibjhCSDM4OXNXUTgzdmhMMzVZU0pGQ2JRRDM5Z3E2YnBrbXpvPSIsImFjY291bnRTaWduYXR1cmUiOiJQK2s2aGlwWGJIKzQ4a0ZERC9qMmhsU0N1SE5helQ2OVo3WXJEM2xIMkxSTVBtQ3VNczRjSDZ5cmN1bmgzcXFpK2piNk9vQVZtSEdmaTg0QUVleHpDUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiQjBZT3JwNms3aEtOQUt6a3hIN1MwRWlPQmk3UUJjZFJzTFk3cXVDSVIxL2JITUZTSC8xcWZ0WUtOOUJNamprSGI0Q25YaGdZRU1rMjFrNDJtNWlDaXc9PSJ9LCJtZSI6eyJpZCI6IjI1MjY4NDc0ODc2MzozQHMud2hhdHNhcHAubmV0IiwibGlkIjoiMjU1NzE0MjY2MjM5MDgxOjNAbGlkIiwibmFtZSI6IkJsb2NrZWQgWW91IPCfpJMifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjUyNjg0NzQ4NzYzOjNAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCWUYwMmFlMjUvQVI5L1BiRmtQTjc0UzkrV0VpUlFtMEE5L1lLdW02WkpzNiJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0FVSUFnPT0ifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIwNjA5NjIyLCJsYXN0UHJvcEhhc2giOiIyV1VqbVoiLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUo3NiJ9",
       "required": true
     },
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "Djalega++"
+      "value": "lukas+"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "22891733300"
+      "value": "252682642802"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -82,8 +82,8 @@
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-      "value": "",
-      "required": false
+      "value": "recording",
+      "required": true
     },
     "PM_CHATBOT": {
       "description": "Put yes if you want the bot to automatically respond to messages in private",
@@ -92,8 +92,8 @@
     },
     "ANTI_VIEW_ONCE": {
       "description": "Put yes if you want to receive in pm all view once content",
-      "required": false,
-      "value": "no"
+      "required": true,
+      "value": "true"
     }
   },
   "formation": {
